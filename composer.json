@@ -18,8 +18,8 @@
         "mindplay/readable": "^1"
     },
     "require-dev": {
-        "mindplay/testies": "^1.1.1",
-        "phpunit/php-code-coverage": "^10",
+        "mindplay/testies": "^1.0",
+        "phpunit/php-code-coverage": "^9 || ^10 || ^11",
         "nyholm/psr7": "^1.4"
     },
     "scripts": {

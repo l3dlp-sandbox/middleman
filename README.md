@@ -1,5 +1,8 @@
-mindplay/middleman
-==================
+# mindplay/middleman
+
+[![PHP Version](https://img.shields.io/badge/php-7.3%2B-blue.svg)](https://packagist.org/packages/mindplay/middleman)
+[![Code Coverage](https://scrutinizer-ci.com/g/mindplay-dk/middleman/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/mindplay-dk/middleman/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mindplay-dk/middleman/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/mindplay-dk/middleman/?branch=master)
 
 Dead simple PSR-15 / PSR-7 [middleware](#middleware) dispatcher.
 
@@ -7,11 +10,6 @@ Provides (optional) integration with a [variety](https://github.com/container-in
 of dependency injection containers compatible with [PSR-11](https://www.php-fig.org/psr/psr-11/).
 
 To upgrade between major releases, please see [UPGRADING.md](UPGRADING.md).
-
-[![PHP Version](https://img.shields.io/badge/php-7.3%2B-blue.svg)](https://packagist.org/packages/mindplay/middleman)
-[![Build Status](https://travis-ci.com/mindplay-dk/middleman.svg?branch=master)](https://travis-ci.org/mindplay-dk/middleman)
-[![Code Coverage](https://scrutinizer-ci.com/g/mindplay-dk/middleman/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/mindplay-dk/middleman/?branch=master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mindplay-dk/middleman/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/mindplay-dk/middleman/?branch=master)
 
 A growing catalog of PSR-15 middleware-components is available from [github.com/middlewares](https://github.com/middlewares).
 

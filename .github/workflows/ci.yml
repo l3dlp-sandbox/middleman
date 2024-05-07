@@ -34,4 +34,4 @@ jobs:
       - if: matrix.coverage == 'xdebug'
         uses: sudo-bot/action-scrutinizer@latest
         with:
-          cli-args: '--format=php-clover test/build/clover.xml'
+          cli-args: '--format=php-clover test/build/coverage.xml'

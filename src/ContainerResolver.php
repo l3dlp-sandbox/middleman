@@ -9,13 +9,15 @@ use RuntimeException;
  * Optionally, pass this as `$resolver` to {@see Dispatcher::__construct()} to provide
  * integration with a dependency injection container - for example:
  *
- *     $dispatcher = new Dispatcher(
- *         [
- *             RouterMiddleware::class,
- *             ErrorMiddleware::class,
- *         ],
- *         new InteropResolver($container)
- *     );
+ * ```php
+ * $dispatcher = new Dispatcher(
+ *     [
+ *         RouterMiddleware::class,
+ *         ErrorMiddleware::class,
+ *     ],
+ *     new ContainerResolver($container)
+ * );
+ * ```
  *
  * Note that this resolver will ignore any middleware component that is not a string - so you
  * can mix component names with regular middleware closures, callable objects, and so on.

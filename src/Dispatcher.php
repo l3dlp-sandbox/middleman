@@ -16,7 +16,7 @@ use Psr\Http\Server\RequestHandlerInterface;
 class Dispatcher implements MiddlewareInterface, RequestHandlerInterface
 {
     /**
-     * @var callable middleware resolver
+     * @var callable|null middleware resolver
      */
     private $resolver;
 
@@ -32,7 +32,7 @@ class Dispatcher implements MiddlewareInterface, RequestHandlerInterface
      *
      * @throws InvalidArgumentException if an empty middleware stack was given
      */
-    public function __construct($stack, callable $resolver = null)
+    public function __construct($stack, ?callable $resolver = null)
     {
         if (count($stack) === 0) {
             throw new InvalidArgumentException("an empty middleware stack was given");

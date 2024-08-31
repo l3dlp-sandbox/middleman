@@ -1,6 +1,6 @@
 # mindplay/middleman
 
-[![PHP Version](https://img.shields.io/badge/php-7.3_--_8.3%2B-blue.svg)](https://packagist.org/packages/mindplay/middleman)
+[![PHP Version](https://img.shields.io/badge/php-7.3_--_8.4%2B-blue.svg)](https://packagist.org/packages/mindplay/middleman)
 [![CI](https://github.com/mindplay-dk/middleman/actions/workflows/ci.yml/badge.svg)](https://github.com/mindplay-dk/middleman/actions/workflows/ci.yml)
 [![Code Coverage](https://scrutinizer-ci.com/g/mindplay-dk/middleman/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/mindplay-dk/middleman/?branch=master)
 
